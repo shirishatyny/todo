@@ -42,10 +42,6 @@ const Home = () => {
     } else {
       window.alert("Please Enter TODO")
     }
-    
-  
- 
-
   };
 
   const deleteItem = (e) => {
