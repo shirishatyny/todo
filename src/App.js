@@ -2,8 +2,8 @@
 import React, {  useEffect, useState } from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toast";
+import "react-toast/dist/ReactToast.css";
 const getLocalStorage=()=>{
   let TodoData=localStorage.getItem("TodoData");
   if(TodoData){
